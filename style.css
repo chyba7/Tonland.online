@@ -1,0 +1,114 @@
+/* Загальні стилі */
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+header .logo {
+    font-size: 28px;
+    font-family: 'Orbitron', sans-serif;
+    color: #ff8c00;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #ff8c00;
+}
+
+header .cta {
+    background: #ff8c00;
+    padding: 8px 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+header .cta:hover {
+    background: #e07b00;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(120deg, #000, #222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero span {
+    color: #ff8c00;
+}
+
+.hero .btn {
+    background: #ff8c00;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.hero .btn:hover {
+    background: #e07b00;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    background: #222;
+    text-align: center;
+}
+
+.features .features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Parallax Section */
+.parallax {
+    background: url('assets/images/parallax-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ff8c00;
+}
